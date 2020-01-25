@@ -1,6 +1,23 @@
+"""                 List is 'mutable' data type. Hence we can enhance the data of a list
+                        * Like we can append more elements to a list
+                        * Can Insert an element to a list
+                        * Can remove an element from a list
+                        * Can extend the list 
+                        * Can clear a list 
+
+                    List can have duplicate elements 
+                    List will alow a None (null) value also
+"""
+list_l = [4]    # List with a single element without comma will be a list
+print(type(list_l))
+
+list_l1 = ['a',]    # List with a single element with comma also be treated as a list
+print(type(list_l1))
+
+
 list_creation = []      # Will create an empty list
 print (list_creation)   # [] 
-list_with_elments = ['a',1,3.10,True,'Hello']   # Creating list with elements
+list_with_elments = ['a',1,3.10,True,'Hello',1,None,None]   # Creating list with elements
 print(list_with_elments)
 
 list_creation.append(('Abdus')) # Adding element at the end of the list
@@ -31,4 +48,7 @@ list_with_elments1.sort()       # Reversing all the elemets of a numerical  list
 print(list_with_elments1)
 
 list_with_elments1.sort(reverse=True)   # Reversing all the elemets of a numerical list (Descending Order)
+print(list_with_elments1)
+
+list_with_elments1.clear()      # Clearing (deleting all elements from) a list 
 print(list_with_elments1)

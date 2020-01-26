@@ -33,3 +33,9 @@ print(type(tuple_c1))    # <class 'tuple'>
 
 tuple_new = (0,1,.1,1.5,True,'hi',None,None,1)
 print(tuple_new)
+
+"""     We can use all default python methods which doesn't modify the values of a tule
+        Like we can use max ,min functions 
+        we can use len function
+        we can sort a tuple for ascending order , for decsnding order we can use reverse=True 
+"""

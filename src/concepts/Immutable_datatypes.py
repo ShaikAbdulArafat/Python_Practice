@@ -6,7 +6,8 @@
                             1. int
                             2. str
                             3. tuple
-                            4. 
+                            4. frozenset
+                            5. tuple
 
 
 """
@@ -35,3 +36,29 @@ print(name)
 name = 'Bella'
 print('id of name object when its value is changed : ',id(name))
 print(name)
+
+'''(3) bytes ''' # str data type is an Immutable data type
+
+unicode_a = 'This is üŋíc0de'
+f = unicode_a.encode('utf-8')
+print(f)
+print(type(unicode_a))
+print(type(f))
+print('id of bytes data type is : ',id(f))
+
+f = b'hi'
+print(f)
+print('id of bytes data type after changing its value is : ',id(f))
+
+
+'''(4) Tuple ''' # tuple data type is an Immutable data type
+
+tuple_a = ('a','b','c')
+print(tuple_a)
+print(type(tuple_a))
+print('id of tuple data type is : ',id(tuple_a))
+
+tuple_a = ('a',)
+print(tuple_a)
+print(type(tuple_a))
+print('id of tuple after changing its value is : ',id(tuple_a))

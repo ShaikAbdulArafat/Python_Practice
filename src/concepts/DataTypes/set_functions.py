@@ -7,6 +7,9 @@
 
                     Set can't have duplicate elements 
                     Set will alow a None (null) value also
+                    Set can't be indexed
+                    Set can't be sliced by default python slicing technique
+                    Set is iterable
 """
 
 set_a = {1}        # Set with a single element without comma will be a set
@@ -26,3 +29,12 @@ print(set_creation)
 
 set_creation.remove(None)   # removing elements from a set (we can't remove elements by index)
 print(set_creation)
+
+print("---------------------")
+# print(set_creation[3])      # TypeError: 'set' object is not subscriptable
+
+# print(set_creation[:])         # TypeError: 'set' object is not subscriptable
+
+for a in set_creation:
+    print(a)
+

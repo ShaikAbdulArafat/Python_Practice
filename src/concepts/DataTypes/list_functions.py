@@ -52,4 +52,3 @@ print(list_with_elments1)
 
 list_with_elments1.clear()      # Clearing (deleting all elements from) a list 
 print(list_with_elments1)
-
